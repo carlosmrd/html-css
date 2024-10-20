@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo vídeos localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video preload="metadata" width="600" height="338" controls loop poster="imagens/video-capa.png">
+        <source src="midia/pexels-video.mp4" type="video/mp4">
+        <source src="midia/pexels-video.mp4" type="video/mp4">
+        <source src="midia/pexels-video.mp4" type="video/webm">
+        <source src="midia/pexels-video.mp4" type="video/ogg"><!--Aqui seriam usados vídeos em outros formatos, como M4V, WEBM e OGV devido a compatibilidade-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Este vídeo está incorporado no Youtube</p>
+    <iframe width="600" height="338" src="https://www.youtube.com/embed/SZ0Q9saSLRk?si=NJJJTC-YiDPSfnQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <p>Este vídeo está incorporado no Vimeo</p>
+    <iframe src="https://player.vimeo.com/video/453934456?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="600" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Genshin Impact Opening Cutscene"></iframe>
+</body>
+</html>

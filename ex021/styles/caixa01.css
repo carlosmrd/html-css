@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1 { /* box-level */
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: darkslateblue;*/
+    
+    border: 10px solid darkslateblue;
+
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+    
+    padding: 10px;
+
+    /*margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;*/
+
+    margin: 20px auto 40px auto;
+
+    /*outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;*/
+
+    outline: 5px dashed blue;
+}
+
+a { /* inline-level */
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
