@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    border: 1px dashed black;
+    height: 100vh;
+    background-image: url(https://www.thebalanceffxiv.com/img/jobs/blm/basic.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center center;
+}

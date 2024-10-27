@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    background-image: url(../images/wallpaper003.jpg);
+    background-position: center center;
+}
