@@ -7,13 +7,25 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size pode ser auto, contain (mostra 100% da imagem, sem cortes), cover (preenche a área, mesmo que cortando a imagem.)
+    background-attachment: fixed;
+    /*
+    background-size pode ser auto, contain (mostra 100% da imagem, sem cortes), cover (preenche a área, mesmo que cortando a imagem.)
+    background-attachment pode ser scroll ou fixed
+    */
+    /*
+    Shorthand - background
+    color > image > position > repeat > [size] (não funciona) > attachment
+
+    Exemplo
+    height: 100vh;
+    background: black url('../images/wallpaper002.jpg') center top no-repeat fixed;
+    background-size: cover;
     */
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid black;

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#container {
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: violet;
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 240px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 10px;
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+    /*
+    "position: absolute" faz com que a posição da caixa seja absoluta em relação a caixa em que está dentro.
+    "left: 50%;
+    top: 50%;" faz com que o canto superior esquerdo da caixa referenciada seja alinhado em 50% da horizontal (a esquerda) e 50% da vertical (abaixo) em relação a caixa que a engloba.
+    "transform: translate(-50%, -50%);" desloca o eixo da caixa em 50% fazendo com que o centro da caixa seja referenciado por "left: 50%;
+    top: 50%;".
+    */
+}
