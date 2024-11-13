@@ -18,10 +18,13 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 40px;
     text-align: center;
     background-color: var(--color0);
 }
@@ -29,20 +32,23 @@ header {
 header h1 {
     font-family: var(--font-header);
     font-weight: bold;
-    font-size: 80px;
+    font-size: 12vw;
+    font-variant: small-caps;
+    padding-top: 50px;
     color: var(--color2);
 }
 
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 3vw;
+    padding-bottom: 50px;
     color: var(--color2);
 }
 
 header p a {
     text-decoration: none;
     color: var(--color2);
+    font-weight: bolder;
 }
 
 header p a:hover {
@@ -50,41 +56,41 @@ header p a:hover {
     color: var(--color2);
 }
 
-main {
-    margin: auto;
+section {
+    padding: 8vh 0vh 8vh 2vh;
     text-align: left;
     background-color: var(--color2);
-}
-
-main p {
-    margin: 16px;
-    padding: 8px;
-    font-family: var(--font-default);
-}
-
-main p.img {
-    display: inline-block;
-    margin: 16px;
-    padding: 8px;
-    font-family: var(--font-default);
-    background-color: var(--color1);
-}
-
-main div.white {
-    background-color: var(--color2);
     color: var(--color0);
+    line-height: 2em;
+    font-family: var(--font-default);
+    font-size: 3vw;
 }
 
-main div.img1 {
+section.white {
+    box-shadow: var(--color1) 6px 6px 10px 10px;
+}
+
+section.white p.sep01 {
+    padding-bottom: 2em;
+}
+
+section.img {
+    box-shadow: inset var(--color1) 6px 6px 10px 0px;
+    background-size: cover;
+}
+section.img p {
+    display: inline-block;
+    padding: 8px;
+    background-color: var(--color1);
     color: var(--color2);
+}
+
+section.img#img01 {
     background: var(--color0) url('../images/background001.jpg') center right no-repeat fixed;
-    background-size: cover
 }
 
-main div.img2 {
-    color: var(--color2);
+section.img#img02 {
     background: var(--color0) url('../images/background002.jpg') center right no-repeat fixed;
-    background-size: cover
 }
 
 footer {
@@ -96,14 +102,14 @@ footer {
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 2vw;
     color: var(--color2);
-    padding: 10px;
+    padding: 1vh;
 }
 
 footer a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--color2);
 }
 
