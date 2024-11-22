@@ -9,14 +9,20 @@ table {
     border-collapse: collapse;
 }
 
-thead {
-    color: white;
-    background-color: gray;
+caption {
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
 
-tfoot {
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+caption, thead, tfoot {
     color: white;
-    background-color: gray;
+    background-color: rgb(78, 78, 78);
 }
 
 td, th {
