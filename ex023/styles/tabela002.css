@@ -7,6 +7,7 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption {
@@ -14,6 +15,12 @@ caption {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(78, 78, 78);
 }
 
 tbody tr:nth-child(even) {
