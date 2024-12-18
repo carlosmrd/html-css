@@ -6,6 +6,7 @@
 
 table {
     border-collapse: collapse;
+    width: 500px;
 }
 
 table caption {
@@ -18,7 +19,20 @@ table th, td {
     padding: 8px;
 }
 
-table th{
+table td.notas {
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+table td.media {
+    background-color: lightgrey;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
     background-color: lightgrey;
     font-weight: bold;
     text-align: center;
