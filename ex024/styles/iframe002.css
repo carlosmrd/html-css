@@ -4,8 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Tamanho padrão de iframe é 300x150px*/
-
 iframe {
     width: 95vw;
     height: 70vh;

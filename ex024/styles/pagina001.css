@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+p.error {
+    text-decoration: underline;
+    color: brown;
+}
+
+iframe {
+    width: 95vw;
+    height: 70vh;
+    border: 2px solid black;
+}
+
+div#container {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width:800px;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+th {
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
