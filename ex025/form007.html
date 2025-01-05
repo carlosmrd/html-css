@@ -26,18 +26,22 @@
         </div>
         <div>
             <label for="iprof">Profissão: </label>
-            <input type="text" name="prof" id="iprof" list="">
-            <datalist>
-                <option value="ADM">Administrador</option>
-                <option value="CONT">Contabilista</option>
-                <option value="DEV">Desenvolvedor</option>
-                <option value="PROF">Professor</option>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
             </datalist>
         </div>
-        <p>
+        <div>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="50" rows="4"></textarea>
+        </div>
+        <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Reset">
-        </p>
+        </div>
     </form>
 </body>
 </html>
