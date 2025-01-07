@@ -16,9 +16,19 @@ header {
 }
 
 main article {
+    padding: 10px 0px 10px 0px;
     width: 100%;
     display: block;
     margin: auto;
+    text-align: justify;
+}
+
+main article h2 {
+    padding: 10px 0px 10px 0px;
+}
+
+main article p {
+    padding: 4px 0px 4px 0px;
 }
 
 article::after {
