@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Declaraçoes Gerais*/
+@media all {
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+}
+
+/*Declaraçoes Portrait*/
+@media screen and (orientation: portrait) {
+html {
+    background-image: url(../back-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+}
+
+/*Declaraçoes Landscape*/
+@media screen and (orientation: landscape) {
+img.portrait {
+    display: none;
+}
+}
