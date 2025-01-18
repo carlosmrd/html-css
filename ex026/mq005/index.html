@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
 </head>
-<body>
+<body onresize="windowResize()">
     <header>
         <h1>Site de Exemplo</h1>
         <span id="menu" class="material-icons" onclick="clickMenu()">
@@ -36,6 +36,13 @@
         </article>
     </main>
     <script>
+        function windowResize() {
+            if (window.innerWidth >= 768) {
+                options.style.display = 'block'
+            } else {
+                options.style.display = 'none'
+            }
+        }
         function clickMenu() {
             if (options.style.display == 'block') {
                 options.style.display = 'none'  
