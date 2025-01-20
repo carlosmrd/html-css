@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 80vh;
     }
 
     section#login > div#image {
@@ -29,6 +30,7 @@
     
     section#login {
         width: 982px;
+        min-height: 550px;
     }
 
     section#login > div#image {
