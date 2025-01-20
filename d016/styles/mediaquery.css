@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 
+/*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     html {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -7,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 260px;
         max-height: 80vh;
     }
 
@@ -23,6 +25,7 @@
     }
 }
 
+/*Desktop*/
 @media screen and (min-width: 992px) {
     html {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -30,6 +33,7 @@
     
     section#login {
         width: 982px;
+        height: 300px;
         max-height: 80vh;
     }
 

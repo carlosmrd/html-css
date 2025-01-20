@@ -33,6 +33,11 @@ section#login {
     transition: width 0.3s, height 0.3s;
 }
 
+section#login h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 section#login > div#image {
     background: #5f2c82 url(../images/pattern.jpg) no-repeat;
     height: 200px;
@@ -42,4 +47,78 @@ section#login > div#image {
 
 section#login > div#form {
     padding: 10px;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+form > div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+form > div.campo > input {
+    background-color: #93dad7;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    transform: translateY(-14px);
+}
+
+form > div.campo > input:focus-within {
+    background-color: white;
+}
+
+form label {
+    display: none;
+}
+
+form > div > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+form > div > input[type=submit]:hover {
+    background-color: #2b5e5c;
+    cursor: pointer;
+}
+
+form > div > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    background-color: #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+form > div > a.botao:hover {
+    background-color: #2b5e5c;
+    cursor: pointer;
+}
+
+form > div > a.botao > span {
+    font-size: 1em;
 }
