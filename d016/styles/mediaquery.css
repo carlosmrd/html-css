@@ -7,9 +7,9 @@
     }
 
     section#login {
-        width: 80vw;
+        width: 90vw;
         height: 260px;
-        max-height: 80vh;
+        max-height: 90vh;
     }
 
     section#login > div#image {
