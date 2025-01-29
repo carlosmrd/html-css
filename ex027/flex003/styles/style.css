@@ -3,13 +3,13 @@
 div.conteiner {
     display: flex;
     background-color: lightgray;
-    flex-direction: row-reverse;
+    flex-flow: row wrap;
 }
 
 div.item {
     background-color: lightblue;
     border: 1px solid black;
+    flex: auto;
     margin: 2px;
-    padding: 10px;
     text-align: center;
 }
