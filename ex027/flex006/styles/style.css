@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div.conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-evenly;
+    background-color: lightgray;
+    height: 98vh;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 80px;
+    text-align: center;
+}
