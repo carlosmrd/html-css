@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+div.conteiner {
+    display: flex;
+    background-color: lightgray;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    height: 400px;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+div.item#A {
+    align-self: auto;
+}
+
+div.item#B {
+    align-self: auto;
+}
+
+div.item#C {
+    align-self: flex-end;
+}
+
+div.item#D {
+    align-self: auto;
+}
+
+div.item#E {
+    align-self: center;
+}
+
+div.item#F {
+    align-self: stretch;
+}
+
+div.item#G {
+    align-self: auto;  
+}

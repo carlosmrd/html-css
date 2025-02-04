@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+div.conteiner {
+    display: flex;
+    background-color: lightgray;
+    flex-flow: row wrap;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+div.item#A {
+    order: 0;
+}
+
+div.item#B {
+    order: -2;
+}
+
+div.item#C {
+    order: 4;
+}
+
+div.item#D {
+    order: -3;
+}
+
+div.item#F {
+    order: 1;
+}
