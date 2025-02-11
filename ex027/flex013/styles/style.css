@@ -18,17 +18,55 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+header > span#menu {
+    display: none;
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: color, background-color .3s;
 }
 
 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+main > section.texto {
+    max-width: 650px;
     background-color: white;
     margin: 10px;
     padding: 10px;
